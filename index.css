@@ -1,4 +1,10 @@
-
+.web-name{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.web-name:hover{
+    color: coral;
+}
 .search_box{
     width: 400px;
 }
@@ -9,5 +15,9 @@ a{
     width: 150px;
 }
 .image{
-    height: 200px;
+    height: 300px;
+}
+.search-form{
+    margin-top: 50px;
+    justify-content: center;
 }
