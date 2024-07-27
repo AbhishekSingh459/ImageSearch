@@ -19,9 +19,6 @@ async function searchImage(){
         const image = document.createElement("img");
         image.classList.add("image");
         image.src = result.urls.small;
-        const imagelink = document.createElement("a")
-        imagelink.href=result.link;
-        imagelink.target="_blank";
 
         searchResult.appendChild(image);
         
